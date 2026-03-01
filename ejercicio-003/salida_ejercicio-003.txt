@@ -1,0 +1,12 @@
+Tiempo por VALOR (Copias): 0.435362 segundos
+Tiempo por PUNTERO (Ref):  0.000191 segundos
+
+CONCLUSIÓN: Usar punteros fue 2279.38x veces más rápido.
+
+Es más costoso pasar argumentos a las funciones por valor que por 
+referencia porque, al pasar por valor, se debe copiar todo el contenido
+en la memoria de la función (el stack) y eso es costoso en tiempo, 
+porque implica copiar regiones de memoria de un espacio a otro; 
+mientras que al pasar por referencia solo se pasa la dirección de 
+memoria (puntero), evitando la copia y reduciendo así el tiempo de 
+ejecución.

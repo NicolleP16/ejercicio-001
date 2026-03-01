@@ -12,3 +12,7 @@ En este primer ejercicio vamos a usar la herramienta Valgrind para valorar que t
 ### Ejercicio 002
 
 Ejercicio que muestra la diferencia entre definir variables que usan la memoria stack o la memoria heap
+
+### Ejercicio 003
+
+Este ejercicio demuestra que pasar datos por referencia es más eficiente que por valor.
